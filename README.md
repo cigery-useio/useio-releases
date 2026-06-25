@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://www.useio.com/assets/images/logo.png" width="120" height="120" alt="UseIO Logo" style="border-radius: 24px;">
+<img src="https://github.com/cigery-useio/useio-releases/blob/main/logo_200.png" width="120" height="120" alt="UseIO Logo" style="border-radius: 24px;">
 
 # UseIO
 
