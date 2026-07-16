@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.0.5-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.8-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -272,14 +272,11 @@ xattr -cr /Applications/UseIO.app
 
 ## 📋 更新日志
 
-### v1.0.5
+### v1.0.8
 
-- 新增 对话框 @提及 功能
-- 知识提取元技能 历史对话列表右键一键提取知识
-- 优化本地数据库自动备份和恢复机制
-- 浏览器自动化技能
-- 文档附件预处理链路
-- 意图识别及自动模式切换
+-⚡ 优化技能列表超过一屏时滚动
+-⚡ 优化知识库超过一屏时滚动
+-⚡ 优化内置终端输出信息读取
 
 ---
 
