@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.1.3-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.0-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -272,13 +272,11 @@ xattr -cr /Applications/UseIO.app
 
 ## 📋 更新日志
 
-### v1.1.3
-
-- ⚡ CRLF 换行符兼容与编辑引擎健壮性增强
-- ⚡ 优化 fuzzyMatcher 诊断分类
-- ⚡ 1MB 文件归一化开销 < 10ms，LF 文件零影响
-- ⚡ 全链路兼容：备份/回滚/状态校验链路零侵入，undo 天然保留原 EOL
-- 🔧 修复截屏功能 DWM 淡出动画导致的视觉闪烁
+### v1.2.0
+- ⚡ 新增内置编辑器功能
+- ⚡ 优化浏览器自动化技能
+- ⚡ 优化消息队列清除机制
+- 🔧 修复已知BUG
 ---
 
 ## 🤝 社区与支持
