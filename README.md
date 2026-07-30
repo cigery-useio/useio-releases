@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.2.0-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.2-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -127,7 +127,7 @@ UseIO 不内置任何模型，你需要自行配置一个 LLM API：
 
 1. 进入 **设置 → 模型管理**
 2. 点击 **添加模型**，填写以下信息：
-   - **模型名称** — 如 `glm-5.2`、`kimi-k2.7-code`、`deepseek-v4-pro`、`claude-4-5-sonnet`、`mimo-v2.5-pro`、`minimax-m3` 等
+   - **模型名称** — 如 `glm-5.2`、`kimi-k3`、`deepseek-v4-pro`、`claude-4-8-opus`、`mimo-v2.5-pro`、`minimax-m3` 等
    - **API Base URL** — 你的 API 服务地址（如 `https://api.openai.com/v1`）
    - **API Key** — 你的密钥
 3. 保存后即可在对话中使用
@@ -272,11 +272,12 @@ xattr -cr /Applications/UseIO.app
 
 ## 📋 更新日志
 
-### v1.2.0
-- ⚡ 新增内置编辑器功能
-- ⚡ 优化浏览器自动化技能
-- ⚡ 优化消息队列清除机制
-- 🔧 修复已知BUG
+### v1.2.2
+- ⚡ 核心依赖栈升级（Node.js升级为v24.18.0、V8 引擎升级为15.0）
+- ⚡ 聊天消息折叠渲染优化
+- ⚡ 编辑器右键菜单增加浏览器打开功能
+- ⚡ 编辑器新增 Java/Go/Rust/Shell/SQL 内置语言高亮及补全
+- 🔧 修复网关代理服务与其他软件服务端口冲突问题
 ---
 
 ## 🤝 社区与支持
