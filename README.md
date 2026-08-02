@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.2.2-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.3-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -271,13 +271,10 @@ xattr -cr /Applications/UseIO.app
 ---
 
 ## 📋 更新日志
-
-### v1.2.2
-- ⚡ 核心依赖栈升级（Node.js升级为v24.18.0、V8 引擎升级为15.0）
-- ⚡ 聊天消息折叠渲染优化
-- ⚡ 编辑器右键菜单增加浏览器打开功能
-- ⚡ 编辑器新增 Java/Go/Rust/Shell/SQL 内置语言高亮及补全
-- 🔧 修复网关代理服务与其他软件服务端口冲突问题
+### v1.2.3
+- ⚡ 新增敏感操作备份与恢复机制
+- ⚡ 应用加载协议变更后旧origin物理隔离数据迁移与保护
+- 🔧 修复知识库查询内容被截断问题
 ---
 
 ## 🤝 社区与支持
