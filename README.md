@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.2.7-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.8-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -271,11 +271,11 @@ xattr -cr /Applications/UseIO.app
 ---
 
 ## 📋 更新日志
-### v1.2.7
-- ⚡ 文件读取限制放宽
-- ⚡ 加入查看隐私权政策
-- ⚡ 剥离上游返回的 CORS 头，避免 "," 重复值导致请求拒绝
-- 🔧 修复优化已知BUG
+### v1.2.8
+- ⚡ 优化 Agent Loop 文件读取死循环检测
+- ⚡ 优化全链路工具调用一致性检查
+- ⚡ 优化会话标题生成机制
+- ⚡ 优化附件文档提取去噪机制
 ---
 
 ## 🤝 社区与支持
