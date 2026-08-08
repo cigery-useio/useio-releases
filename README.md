@@ -1,14 +1,14 @@
 <div align="center">
 
-   <img src="https://github.com/cigery-useio/useio-releases/blob/main/logo_200.png" width="130" height="130" alt="UseIO Logo">
+   <img src="https://github.com/cigery-useio/assets/blob/main/logo-200.png" width="130" height="130" alt="UseIO Logo">
 
 # UseIO
 
-### 用输入输出重新定义人机协作
+### 数据在此输入 智能由此输出
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.2.8-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.9-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -21,7 +21,7 @@
 
 ## 📖 简介
 
-**UseIO** 是一款 100% 本地运行的桌面端 AI 助手。装载自研 Agent Loop 引擎驱动 15 项内置原子能力、30 余种内置工具，能读懂你的意图，解析 Office 文档、精准识别图像内容，更能接管你的工作流——直接在你的电脑上写代码、改文档、整理资料、执行命令、查看电脑屏幕并分析屏幕内容来帮助你完成复杂任务。
+**UseIO** 是一款 100% 本地运行的桌面端 AI 助手。装载自研 Agent Loop 引擎驱动 18 项内置原子能力、30 余种内置工具，能读懂你的意图，解析 Office 文档、精准识别图像内容，更能接管你的工作流——直接在你的电脑上写代码、改文档、整理资料、执行命令、查看电脑屏幕并分析屏幕内容来帮助你完成复杂任务。
 
 具备可视化的记忆图谱管理，多层记忆分层协作：核心信息常驻对话上下文，相关历史按需语义召回，本地知识库也会在需要时自动注入。你在使用过程中创建的 Skill、积累的记忆与知识，并不会随会话结束而消散，而是在本地持续沉淀为你的个人 AI 资产——一套只属于你的、可不断复用的数字能力体系。**所有数据都只在你的设备上处理与存储，隐私零上传。** 用得越久，资产越多，AI 越懂你的习惯与偏好，你的工作效率也因此获得复利增长。
 
@@ -208,13 +208,13 @@ UseIO 支持配置多个模型，可在对话中随时切换：
 <details>
 <summary><b>UseIO 是开源的吗？</b></summary>
 
-UseIO 目前处于 Beta 阶段，源码暂未公开。Release 仓库提供免费的二进制安装包下载。
+UseIO 目前在持续快速迭代，源码暂未公开。Release 仓库提供免费的二进制安装包下载。
 </details>
 
 <details>
 <summary><b>UseIO 需要联网吗？</b></summary>
 
-UseIO 本身不需要联网即可运行。但 AI 对话功能需要你配置一个 LLM API（如 OpenAI、DeepSeek 等），这部分网络请求直接从你的电脑发送至你配置的 API 服务，不经过 UseIO 的任何服务器。
+UseIO 本身不需要联网即可运行。但 AI 对话功能需要你配置一个 LLM API（如 OpenAI、DeepSeek、GLM、Kimi 等），这部分网络请求直接从你的电脑发送至你配置的 API 服务，不经过 UseIO 的任何服务器。
 </details>
 
 <details>
@@ -271,11 +271,10 @@ xattr -cr /Applications/UseIO.app
 ---
 
 ## 📋 更新日志
-### v1.2.8
-- ⚡ 优化 Agent Loop 文件读取死循环检测
-- ⚡ 优化全链路工具调用一致性检查
-- ⚡ 优化会话标题生成机制
-- ⚡ 优化附件文档提取去噪机制
+### v1.2.9
+- ⚡ 优化多项内置原子能力
+- ⚡ 应用图标更换
+- 🔧 修复部分已知问题
 ---
 
 ## 🤝 社区与支持
