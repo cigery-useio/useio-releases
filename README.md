@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.2.9-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.3.0-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -57,7 +57,7 @@
 
 ### 📚 知识库语义检索
 
-本地向量嵌入模型（all-MiniLM-L6-v2 + ONNX Runtime）驱动的语义检索引擎：
+本地向量嵌入模型驱动的语义检索引擎：
 
 - 自动将文档/笔记向量化并入库
 - 对话中自动检索相关知识并注入上下文
@@ -157,7 +157,7 @@ UseIO 会自动：
 UseIO 支持配置多个模型，可在对话中随时切换：
 
 - **对话模型** — 主力模型，负责理解意图和生成回复
-- **视觉模型** — 用于屏幕截图分析（需支持 vision 能力）
+- **视觉模型** — 用于屏幕读取分析/图片分析等（需支持 vision 能力）
 - **嵌入模型** — 本地向量嵌入，用于知识库和记忆检索（已内置，无需配置）
 
 ### 工作区设置
@@ -195,7 +195,7 @@ UseIO 支持配置多个模型，可在对话中随时切换：
 | 层级 | 机制 |
 |------|------|
 | 系统目录保护 | 黑名单机制，禁止访问 Windows / Linux / macOS 系统敏感目录 |
-| 代码执行限制 | JS 代码 ≤ 50KB / 5s 超时；Python 代码 ≤ 100KB / 10s 超时 |
+| 代码执行限制 | JS 代码 ≤ 100KB / 10s 超时；Python 代码 ≤ 100KB / 10s 超时 |
 | Python 模块黑名单 | 禁止 `os`、`sys`、`subprocess`、`socket` 等危险模块 |
 | JS 沙箱隔离 | 在子进程中执行，与主进程隔离 |
 | 启动验证 | 可选密码保护，防止未授权启动 |
@@ -271,10 +271,12 @@ xattr -cr /Applications/UseIO.app
 ---
 
 ## 📋 更新日志
-### v1.2.9
-- ⚡ 优化多项内置原子能力
-- ⚡ 应用图标更换
-- 🔧 修复部分已知问题
+### v1.3.0
+- ⚡ 新增mcp工具调用
+- ⚡ 新增三项原子能力
+- ⚡ 新增图片文件读取分析工具
+- ⚡ 工作空间文件目录树右键菜单增加浏览器打开功能
+- 🔧 修复优化多项工具调用链路
 ---
 
 ## 🤝 社区与支持
