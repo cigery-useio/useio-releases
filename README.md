@@ -8,7 +8,7 @@
 
 一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
 
-![Version](https://img.shields.io/badge/version-1.3.0-6c5ce7?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.3.1-6c5ce7?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
@@ -268,15 +268,6 @@ xattr -cr /Applications/UseIO.app
 卸载不会自动删除用户数据，如需彻底清除请手动删除上述数据目录。
 </details>
 
----
-
-## 📋 更新日志
-### v1.3.0
-- ⚡ 新增mcp工具调用
-- ⚡ 新增三项原子能力
-- ⚡ 新增图片文件读取分析工具
-- ⚡ 工作空间文件目录树右键菜单增加浏览器打开功能
-- 🔧 修复优化多项工具调用链路
 ---
 
 ## 🤝 社区与支持
