@@ -36,7 +36,7 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/screen.png" alt="屏幕读取与视觉分析">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/image.png" alt="屏幕读取与视觉分析">
       <br><sub>查看电脑屏幕，视觉模型识别 UI、错误信息、图表数据</sub>
     </td>
     <td width="50%" align="center">
