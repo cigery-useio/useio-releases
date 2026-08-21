@@ -46,8 +46,6 @@
   </tr>
 </table>
 
-> 📌 截图即将上线。将截图文件上传至 `cigery-useio/assets` 仓库的 `screenshots/` 目录即可自动展示。
-
 ---
 
 ## 🎯 UseIO 的定位
