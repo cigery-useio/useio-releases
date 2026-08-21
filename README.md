@@ -1,83 +1,136 @@
 <div align="center">
 
-   <img src="https://github.com/cigery-useio/assets/blob/main/logo-200.png" width="130" height="130" alt="UseIO Logo">
+   <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/logo-200.png" width="130" height="130" alt="UseIO Logo">
 
 # UseIO
 
-### 数据在此输入 智能由此输出
+### 住在你电脑里的 AI 搭档
 
-一款运行在你电脑上的本地桌面 AI 助手，专注于编程开发与复杂任务的执行。
+一款 100% 本地运行的桌面 AI 智能体。不是 IDE 插件，不是终端工具，而是一个独立应用 —
+自研 Agent Loop 引擎驱动 18 项原子能力、30 余种内置工具，直接接管你的文件、代码、终端、浏览器和屏幕。
+数据零上传，模型自由配置，记忆持久沉淀，越用越懂你。
 
-![Version](https://img.shields.io/badge/version-1.3.4-6c5ce7?style=flat-square)
+![Latest Release](https://img.shields.io/github/v/release/cigery-useio/useio-releases?style=flat-square&color=6c5ce7)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-00cec9?style=flat-square)
 ![License](https://img.shields.io/badge/license-EULA-00b894?style=flat-square)
 ![Local First](https://img.shields.io/badge/100%25-Local--First-6c5ce7?style=flat-square)
 
-[官网](https://www.useio.com) · [下载](#-下载安装) · [功能](#-核心功能) · [更新日志](#-更新日志) · [FAQ](#-常见问题)
+[官网](https://www.useio.com) · [文档](https://www.useio.com/docs.html) · [下载](#-下载安装) · [更新日志](https://github.com/cigery-useio/useio-releases/releases) · [FAQ](#-常见问题)
 
 </div>
 
 ---
 
-## 📖 简介
+## 📸 产品预览
 
-**UseIO** 是一款 100% 本地运行的桌面端 AI 助手。装载自研 Agent Loop 引擎驱动 18 项内置原子能力、30 余种内置工具，能读懂你的意图，解析 Office 文档、精准识别图像内容，更能接管你的工作流——直接在你的电脑上写代码、改文档、整理资料、执行命令、查看电脑屏幕并分析屏幕内容来帮助你完成复杂任务。
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/chat.png" alt="Agent 执行任务">
+      <br><sub>对它说一句话，Agent 自动拆解任务、调用工具、逐步执行</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/memories.png" alt="记忆图谱">
+      <br><sub>可视化记忆图谱，多层记忆分层协作，越用越懂你</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/screen.png" alt="屏幕读取与视觉分析">
+      <br><sub>查看电脑屏幕，视觉模型识别 UI、错误信息、图表数据</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/skills.png" alt="技能系统与 MCP">
+      <br><sub>SKILL.md 自定义技能 + MCP 工具集成，无限扩展能力边界</sub>
+    </td>
+  </tr>
+</table>
 
-具备可视化的记忆图谱管理，多层记忆分层协作：核心信息常驻对话上下文，相关历史按需语义召回，本地知识库也会在需要时自动注入。你在使用过程中创建的 Skill、积累的记忆与知识，并不会随会话结束而消散，而是在本地持续沉淀为你的个人 AI 资产——一套只属于你的、可不断复用的数字能力体系。**所有数据都只在你的设备上处理与存储，隐私零上传。** 用得越久，资产越多，AI 越懂你的习惯与偏好，你的工作效率也因此获得复利增长。
-
-### 核心优势
-
-- 🔐 **100% 本地运行** — 所有数据在你的设备上处理与存储，隐私零上传，零云端依赖
-- 🤖 **AI 驱动的自动化** — 能读懂你的意图，自动拆解任务并执行，直接操作你的项目
-- 🧠 **越用越懂你** — 可视化记忆图谱，多层记忆分层协作，个性化持续进化
-- 🔧 **模型自由配置** — 不绑定任何模型，自由配置任意 OpenAI 兼容的 LLM 服务
-- 🛡️ **安全可控** — 内置安全防护机制，敏感操作需确认，启动密码保护
+> 📌 截图即将上线。将截图文件上传至 `cigery-useio/assets` 仓库的 `screenshots/` 目录即可自动展示。
 
 ---
 
-## ✨ 核心功能
+## 🎯 UseIO 的定位
 
-### 🧠 Agent 工具调用
+UseIO 住在你电脑里，接管的是你整台电脑的工作流。编程只是它能力的一部分 — 它还能解析你的 Office 文档和 PDF、读取你的屏幕帮你排查问题、管理你的文件和资料、操作浏览器采集数据。所有数据 100% 本地处理，零上传；不绑定任何模型，自由配置；记忆持久沉淀，越用越懂你。
 
-内置丰富的原子工具集，覆盖文件操作、命令执行、代码运行、进程管理等常见开发场景。Agent 会自动理解你的意图，拆解复杂任务为可执行步骤，逐步调用工具链完成目标，你只需确认关键决策点。
+---
 
-### 🖥️ 屏幕读取与视觉分析
+## ✨ 核心特点
 
-查看电脑屏幕、捕获全屏画面，配合视觉模型精准识别 UI 结构、错误信息、图表数据，辅助开发调试。支持多显示器，可通过 `instruction` 参数引导视觉模型聚焦特定区域。
+### 🤖 Agent Loop 引擎 — 精准调用工具，一次做对
 
-### 💬 记忆图谱管理
+自研 Agent Loop 引擎采用「感知 → 决策 → 执行 → 反馈」循环架构。你提出需求，引擎自动拆解为多个步骤，每步选择合适的工具执行，根据结果决定下一步，直到任务完成。内置自纠错机制和三级递进死循环检测，确保任务始终向前推进。
 
-可视化多层记忆分层协作：
+**18 项原子能力 + 30 余种内置工具**，覆盖文件操作、代码执行、命令行、进程管理、浏览器自动化、屏幕读取、文档解析等全方位场景。原子能力可自由组合，灵活应对从简单问答到复杂多步任务的任意场景。工具按安全级别三级管理：低风险静默执行，中风险需确认，高风险始终需确认。
 
-- **核心信息** — 常驻对话上下文，始终可用
-- **相关历史** — 按需语义召回，智能匹配
-- **本地知识库** — 需要时自动注入，无需手动检索
+更重要的是，原子能力是模型无关的 — 当你切换到更强的模型时，同样的工具集会随模型能力提升而表现更好。**模型越强，能力越强，无需重新适应。**
 
-所有记忆数据均在本地处理，基于 HNSW 向量索引实现毫秒级语义检索。
+**精准的工具调用机制**是任务质量的关键保障：
 
-### 📚 知识库语义检索
+- **上下文感知** — 每次调用前，引擎将当前任务状态、文件内容、历史执行结果注入上下文，让 LLM 在充分信息下做决策
+- **工具语义匹配** — 根据任务意图自动筛选最相关的工具子集，避免 LLM 在 30+ 工具中迷失方向
+- **参数校验与消歧** — 工具调用前自动校验参数完整性，多匹配时主动消歧，匹配失败时返回最相似片段供参考
+- **执行结果反馈** — 每次工具执行的结果都回传给 LLM，形成闭环验证，做错了能自己发现并纠正
 
-本地向量嵌入模型驱动的语义检索引擎：
+这套机制让 LLM 每次都能选对工具、传对参数、拿到正确结果 — 最大程度减少反复修改和调试，**节约你的 API 调用次数和 Token 消耗**。
 
-- 自动将文档/笔记向量化并入库
-- 对话中自动检索相关知识并注入上下文
-- 支持 Office 文档（Word / Excel / PowerPoint）与 PDF 解析
-- 全程本地运行，文档内容不上传任何服务器
+> **场景举例**：输入「分析 src/components 目录，找出未使用的组件并清理」
+>
+> UseIO 自动 → 扫描目录 → 交叉引用分析 → 生成清理方案 → 你确认后执行删除 → 验证结果
 
-### 🔧 技能系统扩展
+### 🧠 记忆图谱 — 个人 AI 资产飞轮
 
-通过 `SKILL.md` 自定义技能，打造专属工作流：
+可视化的多层记忆系统，不是每次对话从零开始：
 
-- 编写 SKILL.md 定义技能触发条件与执行逻辑
-- 导入 / 导出 / 管理技能库
-- 社区化扩展能力边界
+- **核心信息** — 常驻对话上下文，始终可用（你的偏好、习惯、项目背景）
+- **相关历史** — 按需语义召回，对话中自动匹配相关记忆
+- **本地知识库** — 需要时自动注入，无需手动翻找
 
-### 🔒 隐私优先 · 零云端
+记忆不会随会话结束而消散。你在使用过程中创建的 Skill、积累的记忆与知识，在本地持续沉淀 — 这不是临时上下文，而是**只属于你的、可不断复用的数字能力体系**。
+
+这是一个正向飞轮：用得越久，UseIO 越懂你的习惯与偏好，记忆越丰富，知识库越充实，技能越完善 — 每一次使用都在为下一次积累优势，工作效率获得复利增长。
+
+### 🖥️ 屏幕读取与视觉分析 — 看得见你的屏幕
+
+读取所有显示器的全屏画面（支持多屏），配合视觉模型精准识别 UI 结构、错误信息、图表数据。通过 `instruction` 参数引导视觉模型聚焦特定区域，大幅提升分析精度。
+
+> **场景举例**：编译报错了？对它说「看看屏幕上这个错误」→ 它截屏、识别错误信息、定位问题、给出修复方案。
+
+还能直接读取本地图片文件（png/jpg/jpeg/webp）并分析内容，适用于分析 UI 设计稿、图表数据、截图等场景。
+
+### 🔒 100% 本地运行 — 数据不出设备
 
 - **没有云端服务** — 不依赖任何 UseIO 官方服务器
 - **数据不出设备** — 所有对话、记忆、知识库均在本地处理与存储
 - **模型自主可控** — 你自行配置 LLM API，UseIO 不内置任何模型
-- **安全防护** — 系统目录黑名单、代码执行限制、启动密码验证、自动备份
+- **安全防护** — 系统目录黑名单、代码执行沙箱、启动密码保护、自动备份与恢复
+
+```
+你的输入 ──→ UseIO 本地处理 ──→ 你配置的 LLM API（仅对话内容）
+                │
+                ├──→ 本地记忆库（本地数据库）
+                ├──→ 本地知识库（向量索引）
+                └──→ 本地文件系统（工作区）
+```
+
+### 🔧 模型自由 + 无限扩展
+
+**不绑定任何模型** — 兼容所有 OpenAI API 格式的服务：
+
+| 类型 | 示例 |
+|------|------|
+| 国内模型 | DeepSeek、智谱 GLM、Kimi、通义千问、MiniMax |
+| 国际模型 | OpenAI GPT 系列、Anthropic Claude（通过兼容接口） |
+| 本地模型 | Ollama / LM Studio / vLLM 等本地部署 |
+| 第三方服务 | 阿里百炼、火山方舟、腾讯云等 |
+
+> 具体模型名称请查阅各服务商最新文档。支持配置多个模型，对话中随时切换。
+
+**可扩展能力体系**：
+
+- **SKILL.md 技能系统** — 编写 SKILL.md 定义自定义技能，打造专属工作流，支持导入 / 导出和社区分享
+- **MCP 工具集成** — 通过 MCP 协议接入外部工具（数据库查询、API 调用、第三方服务），Agent 像调用内置工具一样使用它们
 
 ---
 
@@ -87,18 +140,14 @@
 
 | 类型 | 说明 | 适合人群 |
 |------|------|---------|
-| **NSIS 安装包** (`.exe`) | 标准安装程序，支持自定义安装路径、创建快捷方式 | 大多数用户 |
+| **NSIS 安装包** (`.exe`) | 标准安装程序，支持自定义安装路径 | 大多数用户 |
 | **便携版** (`.exe`) | 免安装，解压即用，不写注册表 | 需要便携使用的用户 |
-
-> 下载地址：前往 [Releases 页面](https://github.com/cigery-useio/useio-releases/releases) 选择最新版本
 
 ### macOS
 
 | 格式 | 说明 |
 |------|------|
 | **DMG** (`.dmg`) | 标准 macOS 安装镜像，支持 Apple Silicon 和 Intel |
-
-> 下载地址：前往 [Releases 页面](https://github.com/cigery-useio/useio-releases/releases) 选择最新版本
 
 ### Linux
 
@@ -111,7 +160,15 @@ chmod +x UseIO-*.AppImage
 ./UseIO-*.AppImage
 ```
 
-> 下载地址：前往 [Releases 页面](https://github.com/cigery-useio/useio-releases/releases) 选择最新版本
+> 📥 前往 [Releases 页面](https://github.com/cigery-useio/useio-releases/releases) 选择最新版本下载
+
+### 系统要求
+
+| 平台 | 最低系统版本 | 架构 | 磁盘空间 |
+|------|------------|------|---------|
+| Windows | Windows 10 1809+ | x64 | > 2 GB |
+| macOS | macOS 11 Big Sur+ | Apple Silicon / Intel | > 2 GB |
+| Linux | Ubuntu 20.04+ | x64 | > 2 GB |
 
 ---
 
@@ -123,83 +180,50 @@ chmod +x UseIO-*.AppImage
 
 ### Step 2：配置大语言模型
 
-UseIO 不内置任何模型，你需要自行配置一个 LLM API：
+UseIO 不内置任何模型，你需要配置一个 LLM API：
 
-1. 进入 **设置 → 模型管理**
-2. 点击 **添加模型**，填写以下信息：
-   - **模型名称** — 如 `glm-5.2`、`kimi-k3`、`deepseek-v4-pro`、`claude-4-8-opus`、`mimo-v2.5-pro`、`minimax-m3` 等
-   - **API Base URL** — 你的 API 服务地址（如 `https://api.openai.com/v1`）
-   - **API Key** — 你的密钥
+1. 进入 **设置 → 模型管理**，点击 **添加模型**
+2. 填写 API Base URL、API Key、模型名称
 3. 保存后即可在对话中使用
 
-> 💡 UseIO 兼容所有 OpenAI API 格式的模型服务，包括但不限于 OpenAI、DeepSeek、Moonshot、智谱、Ollama 等。
+> 💡 以智谱 GLM 为例：
+> - API Base URL: `https://open.bigmodel.cn/api/paas/v4`
+> - Model Name: `glm-5.3`
+>
+> 如需使用屏幕读取 / 图片分析功能，还需额外配置一个支持视觉的模型。
 
 ### Step 3：开始第一个任务
 
-在对话框中直接描述你的需求，例如：
+在对话框中直接描述你的需求：
 
 ```
 帮我分析 src/components 目录，找出未使用的组件并清理
 ```
 
-UseIO 会自动：
-1. 调用 `plan` 工具拆解任务
-2. 扫描目录、交叉引用分析
-3. 生成清理方案
-4. 经你确认后执行删除
+UseIO 会自动拆解任务、调用工具、逐步执行，你只需确认关键决策点。
+
+> 💡 在对话框中输入 `@` 可以触发提及菜单，快速引用工作空间中的文件、目录或技能。
 
 ---
 
-## ⚙️ 配置指南
+## 📋 功能全景
 
-### 模型配置
-
-UseIO 支持配置多个模型，可在对话中随时切换：
-
-- **对话模型** — 主力模型，负责理解意图和生成回复
-- **视觉模型** — 用于屏幕读取分析/图片分析等（需支持 vision 能力）
-- **嵌入模型** — 本地向量嵌入，用于知识库和记忆检索（已内置，无需配置）
-
-### 工作区设置
-
-- **用户工作空间** — 设置项目根目录，UseIO 将以此为基础执行文件操作和命令
-- **内置工作区** — UseIO 内部数据目录（Plan 文件、草稿等），无需手动管理
-
-### 安全设置
-
-- **启动密码** — 设置应用启动密码，防止未授权访问
-- **自动审批** — 可配置特定工具自动执行，无需每次确认
-- **数据备份** — 支持手动 / 自动备份，可导出为压缩包
-
----
-
-## 🔒 隐私与安全
-
-### 数据流向说明
-
-```
-你的输入 ──→ UseIO 本地处理 ──→ 你配置的 LLM API（仅对话内容）
-                │
-                ├──→ 本地记忆库（本地数据库）
-                ├──→ 本地知识库（向量索引）
-                └──→ 本地文件系统（工作区）
-```
-
-- **对话内容**：仅发送至你配置的 LLM API 服务，UseIO 不经手任何中间数据
-- **记忆与知识库**：100% 存储在本地 IndexedDB 中
-- **文件操作**：所有文件读写均在本地完成
-- **屏幕截图**：截图仅在本地处理，发送至你配置的视觉模型 API
-
-### 安全防护机制
-
-| 层级 | 机制 |
+| 功能 | 说明 |
 |------|------|
-| 系统目录保护 | 黑名单机制，禁止访问 Windows / Linux / macOS 系统敏感目录 |
-| 代码执行限制 | JS 代码 ≤ 100KB / 10s 超时；Python 代码 ≤ 100KB / 10s 超时 |
-| Python 模块黑名单 | 禁止 `os`、`sys`、`subprocess`、`socket` 等危险模块 |
-| JS 沙箱隔离 | 在子进程中执行，与主进程隔离 |
-| 启动验证 | 可选密码保护，防止未授权启动 |
-| 操作确认 | 文件写入 / 删除 / 命令执行等操作需用户确认（可配置自动审批） |
+| **Agent 工具调用** | 18 项原子能力 + 30 余种内置工具，自动拆解任务链逐步完成 |
+| **屏幕读取与视觉分析** | 截取全屏画面，视觉模型识别 UI 结构、错误信息、图表数据 |
+| **记忆图谱** | 多层记忆分层协作，核心信息常驻、历史按需召回、知识库自动注入 |
+| **知识库语义检索** | 本地向量嵌入模型驱动，自动注入相关知识，支持 Office / PDF 解析 |
+| **技能系统** | 通过 SKILL.md 自定义技能，导入 / 导出 / 社区分享 |
+| **MCP 工具集成** | 标准化协议接入外部工具，无限扩展能力边界 |
+| **浏览器自动化** | 控制 Chrome 执行多步骤网页操作、数据采集、表单填写 |
+| **代码沙箱** | 内置 JavaScript / Python 执行环境，安全隔离 |
+| **集成终端** | 执行 shell 命令，支持常驻进程管理和多会话 |
+| **文档解析** | Word / Excel / PowerPoint / PDF 结构化提取 + OCR 图片文字识别 |
+| **@提及功能** | 快速引用工作空间中的文件、目录或技能 |
+| **检查点与撤销** | 敏感操作前自动创建检查点，支持撤销 / 重做 |
+
+> 📖 详细使用指南请参阅 [官方文档](https://www.useio.com/docs.html)
 
 ---
 
@@ -214,28 +238,19 @@ UseIO 目前在持续快速迭代，源码暂未公开。Release 仓库提供免
 <details>
 <summary><b>UseIO 需要联网吗？</b></summary>
 
-UseIO 本身不需要联网即可运行。但 AI 对话功能需要你配置一个 LLM API（如 OpenAI、DeepSeek、GLM、Kimi 等），这部分网络请求直接从你的电脑发送至你配置的 API 服务，不经过 UseIO 的任何服务器。
+UseIO 本身不需要联网即可运行。但 AI 对话功能需要你配置一个 LLM API，这部分网络请求直接从你的电脑发送至你配置的 API 服务，不经过 UseIO 的任何服务器。
 </details>
 
 <details>
 <summary><b>支持哪些 LLM 模型？</b></summary>
 
-UseIO 兼容所有 OpenAI API 格式的模型服务，包括但不限于：
-- OpenAI（GPT-5 / GPT-5.5 等）
-- Anthropic Claude（通过兼容接口）
-- DeepSeek
-- Moonshot（Kimi）
-- 智谱 GLM
-- Mimo
-- MiniMax
-- Ollama（本地部署模型）
-- 任何 OpenAI 兼容的 API 服务
+兼容所有 OpenAI API 格式的模型服务，包括 DeepSeek、智谱 GLM、Kimi、通义千问、MiniMax、OpenAI GPT 系列、Anthropic Claude（通过兼容接口）、Ollama 本地模型等。具体模型名称请查阅各服务商最新文档。支持配置多个模型，在对话中随时切换。
 </details>
 
 <details>
 <summary><b>Windows 安装时提示"SmartScreen 已阻止启动"？</b></summary>
 
-这是因为 UseIO 的代码签名证书尚未被 Windows 识别。点击 **"更多信息"** → **"仍要运行"** 即可继续安装。后续版本将申请正式代码签名。
+这是因为 UseIO 的代码签名证书尚未被 Windows 识别。点击 **"更多信息"** → **"仍要运行"** 即可继续安装。
 </details>
 
 <details>
@@ -275,9 +290,9 @@ xattr -cr /Applications/UseIO.app
 | 渠道 | 地址 |
 |------|------|
 | 🌐 官方网站 | [www.useio.com](https://www.useio.com) |
+| 📖 使用文档 | [docs.useio.com](https://www.useio.com/docs.html) |
 | 📧 联系邮箱 | cy@useio.com |
 | 🐛 问题反馈 | [GitHub Issues](https://github.com/cigery-useio/useio-releases/issues) |
-| 💬 GitHub | [cigery-useio/useio-releases](https://github.com/cigery-useio/useio-releases) |
 
 > 在使用中遇到任何问题，欢迎通过 GitHub Issues 或邮箱反馈。
 
@@ -289,15 +304,14 @@ UseIO 是一款免费软件，采用自定义的 [最终用户许可协议（EUL
 
 **核心要点：**
 - ✅ 个人和企业均可免费使用
-- ❌ 禁止逆向工程、反编译、反汇编
-- ❌ 禁止转售、再分发、捆绑销售
-- ❌ 禁止作为商业产品/服务的一部分进行销售或集成
+- ✅ 数据完全本地化，你拥有全部控制权
+- ✅ 可自由配置任意模型，不受厂商锁定
+- ✅ 支持自定义技能和 MCP 工具扩展能力边界
 
 **AI 功能特别免责条款：**
-- AI 输出基于概率算法生成，具有不确定性、不可预测性和随机性
+- AI 输出基于概率算法生成，具有不确定性
 - 用户应自行验证 AI 输出的准确性和安全性
 - 因使用或依赖 AI 功能造成的任何损失和风险由用户自行承担
-- AI 输出不能替代专业人士的判断、建议或服务
 
 完整协议请参见 [LICENSE.md](LICENSE.md) 文件。
 
