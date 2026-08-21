@@ -21,7 +21,7 @@
 
 ---
 
-## 📸 产品预览
+## 📸 应用预览
 
 <table>
   <tr>
@@ -42,6 +42,16 @@
     <td width="50%" align="center">
       <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/skills.png" alt="技能系统与 MCP">
       <br><sub>SKILL.md 自定义技能 + MCP 工具集成，无限扩展能力边界</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/vue.png" alt="Vue 工程开发">
+      <br><sub>Vue 工程开发，Agent 编写代码并在终端启动开发服务器</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/ppt.png" alt="PPT 内容分析">
+      <br><sub>解析 PPT 文档，结构化提取内容并智能分析</sub>
     </td>
   </tr>
 </table>
