@@ -30,28 +30,68 @@
       <br><sub>对它说一句话，Agent 自动拆解任务、调用工具、逐步执行</sub>
     </td>
     <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/editor.png" alt="三栏工作台">
+      <br><sub>文件树、对话、代码编辑器三栏联动，写代码不用切窗口</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/automation.png" alt="自动化开发工作流">
+      <br><sub>启动服务、打开浏览器、截屏验证，一条指令全自动跑完</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/vue.png" alt="Vue 工程开发">
+      <br><sub>Vue 工程开发，Agent 编写代码并在终端启动开发服务器</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/computer-use.png" alt="桌面自动化">
+      <br><sub>像真人一样操作桌面应用：看屏幕、点鼠标、敲键盘，错了自己纠正</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/image.png" alt="屏幕读取与视觉分析">
+      <br><sub>查看电脑屏幕，视觉模型识别 UI、错误信息、图表数据</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/ppt.png" alt="PPT 内容分析">
+      <br><sub>解析 PPT 文档，结构化提取内容并智能分析</sub>
+    </td>
+    <td width="50%" align="center">
       <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/memories.png" alt="记忆图谱">
       <br><sub>可视化记忆图谱，多层记忆分层协作，越用越懂你</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/image.png" alt="屏幕读取与视觉分析">
-      <br><sub>查看电脑屏幕，视觉模型识别 UI、错误信息、图表数据</sub>
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/knowledge-base.png" alt="本地知识库">
+      <br><sub>笔记与资料沉淀成本地知识库，需要时自动检索注入</sub>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/skills.png" alt="技能系统与 MCP">
-      <br><sub>SKILL.md 自定义技能 + MCP 工具集成，无限扩展能力边界</sub>
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/skills.png" alt="技能系统">
+      <br><sub>SKILL.md 自定义技能，支持导入导出和社区分享</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/vue.png" alt="Vue 工程开发">
-      <br><sub>Vue 工程开发，Agent 编写代码并在终端启动开发服务器</sub>
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/workspace.png" alt="技能工作空间">
+      <br><sub>技能以文件树形态管理，看得见改得了，@ 提及即用</sub>
     </td>
     <td width="50%" align="center">
-      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/ppt.png" alt="PPT 内容分析">
-      <br><sub>解析 PPT 文档，结构化提取内容并智能分析</sub>
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/mcp.png" alt="MCP 工具集成">
+      <br><sub>MCP 协议接入外部工具，服务状态与已发现工具一目了然</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/models.png" alt="多模型配置">
+      <br><sub>对话、任务、视觉、记忆各配各的模型，方案一键切换</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://raw.githubusercontent.com/cigery-useio/assets/main/screenshots/settings.png" alt="系统设置">
+      <br><sub>联网搜索、浏览器路径、截图快捷键，全部本地掌控</sub>
     </td>
   </tr>
 </table>
