@@ -260,7 +260,7 @@ chmod +x UseIO-*.AppImage
 | 平台 | 最低系统版本 | 架构 | 磁盘空间 |
 |------|------------|------|---------|
 | Windows | Windows 10 1809+ | x64 | > 2 GB |
-| macOS | macOS 11 Big Sur+ | Apple Silicon / Intel | > 2 GB |
+| macOS | macOS 13 Ventura+ | Apple Silicon / Intel | > 2 GB |
 | Linux | Ubuntu 20.04+ | x64 | > 2 GB |
 
 ---
